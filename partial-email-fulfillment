@@ -1,0 +1,9 @@
+## Email Fulfillment
+
+### Short term
+`{{layout handle="sales_email_order_items_tracking" order=$order}}`
+Inform customer about how many products(qty) that will deliver on this shipment.
+
+### Shipment Tracking
+`{{layout handle="sales_email_order_shipment_tracking" shipment=$shipment order=$order}}`
+Inform customer about how many products that are already delivered (0, if it's not delivered yet)
